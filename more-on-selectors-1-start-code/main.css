@@ -13,13 +13,17 @@ a {
   color: white;
   margin: 10px;
 }
-/* same section has two class
-it override by the style assigned not the class assigned in the HTML
-here highlighted class border win because style assigned after the main */
-/* .highlighted {
-  border: 2px solid orangered;
-} */
+/* combined selector 
+a.active =>anchor element which has a class active
+if you put a white space between a .active =>which means ->
+a is a parent of the element of active class
+we can combine an id=>a#id
+*/
 
+a.active {
+  color: purple;
+}
+/* combined class */
 .main-section {
   height: 800px;
   border: 1px solid #ccc;
