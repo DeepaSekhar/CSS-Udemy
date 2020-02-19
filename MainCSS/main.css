@@ -58,3 +58,7 @@ h1 {
   display: inline-block;
   margin: 0 16px;
 }
+/* styling anchor tag */
+.main-nav_item a {
+  text-decoration: none;
+}
