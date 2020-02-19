@@ -72,3 +72,18 @@ h1 {
   color: white;
   border-bottom: 2px solid white;
 }
+/* Making an element of nav is different from others(call to action button) */
+.main-nav_item--cta a {
+  color: white;
+  background: red;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+/* change the style of the CTA button after hovering it */
+
+.main-nav_item--cta a:hover,
+.main-nav_item--cta a:active {
+  color: red;
+  background: white;
+  border: none;
+}
