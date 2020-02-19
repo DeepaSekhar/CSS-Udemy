@@ -23,18 +23,38 @@ h1 {
 /* h1 {
     font-family: sans-serif;
 } */
+
 .main-header {
   background: rgb(12, 231, 12);
   width: 100%;
   padding: 8px 16px;
 }
+
+/* giving style to our header text */
+
 .main-header > div {
   display: inline-block;
+  vertical-align: middle;
 }
+.main-header_brand {
+  color: #e97312;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* styling nav */
 .main-nav {
   display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+.main-nav_items {
+  margin: 0;
+  padding: 0;
 }
 
 .main-nav_item {
   display: inline-block;
+  margin: 0 16px;
 }
