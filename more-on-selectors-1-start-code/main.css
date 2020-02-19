@@ -23,6 +23,10 @@ we can combine an id=>a#id
 a.active {
   color: purple;
 }
+/* this psuedo class select all other a tag eccept the one having class active */
+a:not(.active) {
+  color: green;
+}
 /* combined class */
 .main-section {
   height: 800px;
