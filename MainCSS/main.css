@@ -50,6 +50,21 @@ white background,green text,padding and drop shadow */
   box-shadow: 2px 2px 2px 2px black;
   border-radius: 8px;
 }
+/* style the list (add class inside each <ul>)
+  */
+.plan-features {
+  list-style: none;
+}
+/* To style each <li>element=>
+a.use a combination class with ul(planfreatures.li)
+b.assign class name for each element in li and style it.  */
+/*a. .plan-features li {
+  margin: 2px 0;
+} */
+.plan-feature {
+  margin: 2px, 0;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
