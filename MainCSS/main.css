@@ -65,6 +65,22 @@ b.assign class name for each element in li and style it.  */
   margin: 2px, 0;
 }
 
+/* styling the tittle and price-tag */
+.plan-title {
+  columns: #0e4f1f;
+}
+.plan-price {
+  color: #858585;
+}
+/* special styling on the highlighted article  */
+
+.highlighted-plan .plan-title {
+  color: white;
+}
+.highlighted-plan .plan-price {
+  color: #012901;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
