@@ -80,7 +80,23 @@ b.assign class name for each element in li and style it.  */
 .highlighted-plan .plan-price {
   color: #012901;
 }
-
+/* styling the button
+cursor is a selector and show its effect on when we touch to the element */
+.button {
+  background: #0e4f1f;
+  color: white;
+  padding: 8px;
+  border: 1px darkgreen;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover,
+.button:active {
+  background: white;
+  color: green;
+}
 /* h1 {
     font-family: sans-serif;
 } */
