@@ -30,7 +30,15 @@ body {
   margin: 8px;
   display: inline-block;
   width: 30%;
-  verical-align: middle;
+  vertical-align: middle;
+}
+/* highlight the middle article 
+box-shadow giving the shadow to the box
+box-shadow:x-axis,y-axis,blur,spread color*/
+.highlighted-plan {
+  background: green;
+  color: white;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
 /* h1 {
