@@ -40,7 +40,16 @@ box-shadow:x-axis,y-axis,blur,spread color*/
   color: white;
   box-shadow: 2px 2px 2px 2px grey;
 }
+/* style RECOMMETED badgewith
+white background,green text,padding and drop shadow */
 
+.plan-annotation {
+  background: white;
+  color: green;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 8px;
+}
 /* h1 {
     font-family: sans-serif;
 } */
