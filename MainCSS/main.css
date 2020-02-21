@@ -219,6 +219,20 @@ cursor is a selector and show its effect on when we touch to the element */
   background: white;
   border: none;
 }
+/* *********************************************************************************/
+.package {
+  width: 80%;
+  margin: 16px;
+  border: 2px solid green;
+  border-left: none;
+}
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  pading: 32px;
+}
+/* ******************************************************************************* */
 .main-footer {
   background: black;
   padding: 4px;
