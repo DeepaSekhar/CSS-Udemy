@@ -4,11 +4,19 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+ /* .background{ 
+  background:url("plans-background.jpg");
+  widows: 100%;
+  height:100%;
+  position:fixed;
+  z-index: -1;
+} */
 
 #product-overview {
   /* adding background image  */
   /* background: url("freedom.jpg"); */
-  background-image: url("freedom.jpg");
+  background:linear-gradient( to top,rgba(80,68,18,0.6)10%,transparent),
+   url("freedom.jpg");
   /* width and height*/
   background-repeat: no-repeat;
 
@@ -19,38 +27,42 @@ body {
   background-position: center;
   /* background-position: left bottom; */
   width: 100%;
-  height: 548px;
-  padding: 10px;
-  margin-top: 1px;
-
+  height: 33vh;
+  /* padding: 10px; */
+  margin-top: 1px ;
   border: 1px solid black;
-}
-.section-title {
-  color: #063b14;
-  text-align: center;
 }
 
 #product-overview h1 {
   color: rgb(238, 227, 227);
   font-family: "Anton", sans-serif;
   position: relative;
+  top :60%;
   bottom: 5%;
-  left: 3%;
+  font-size:1rem;
 }
+@media(min-width:40rem)and (min-height:60rem){
+  #product-overview{
+    height:40vh;
+    background-position: 50% 25%;
+  }
+}
+  
+
+.section-title {
+  color: #063b14;
+  text-align: center;
+}
+
 /* style the article in the page
 1.given a same class name to every article in the page  */
 .plan {
   background: #d5ffdc;
   text-align: center;
   padding: 16px;
-  margin: 8px;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
-}
-.plan-list {
-  width: 80%;
-  margin: auto;
+  margin: 8px 0 0 0;
+  width: 100%;
+  
 }
 /* highlight the middle article 
 box-shadow giving the shadow to the box
@@ -75,6 +87,20 @@ white background,green text,padding and drop shadow */
 .plan-features {
   list-style: none;
 }
+@media(min-width:40rem){
+  .plan-list {
+  width: 100%;
+text-align: center;
+}
+.plan{ 
+  display:inline-block;
+  width:30%;
+  vertical-align: middle;
+  min-width:13rem;
+max-width:25rem 
+
+}
+}
 /* To style each <li>element=>
 a.use a combination class with ul(planfreatures.li)
 b.assign class name for each element in li and style it.  */
@@ -82,7 +108,7 @@ b.assign class name for each element in li and style it.  */
   margin: 2px 0;
 } */
 .plan-feature {
-  margin: 2px, 0;
+  /* margin: 2px, 0; */
 }
 
 /* styling the tittle and price-tag */
@@ -134,8 +160,8 @@ cursor is a selector and show its effect on when we touch to the element */
   text-align: center;
 }
 .key-feature {
-  display: inline-block;
-  width: 30%;
+  /* display: inline-block;
+  width: 30%; */
 }
 /* make a rounded container for image */
 .key-feature-image {
@@ -145,12 +171,21 @@ cursor is a selector and show its effect on when we touch to the element */
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
+  
 }
 .key-feature-description {
   text-align: center;
   color: white;
   font-size: 20px;
   vertical-align: top;
+}
+@media(min-width:40rem){
+  .key-feature{
+    vertical-align: top;
+    display: inline-block;
+    width: 30%; 
+
+  }
 }
 /* h1 {
     font-family: sans-serif;
@@ -160,6 +195,12 @@ cursor is a selector and show its effect on when we touch to the element */
   background: rgb(12, 231, 12);
   width: 100%;
   padding: 8px 16px;
+  position:fixed;
+  top:0;
+  left:0;
+  margin:0;
+  box-sizing:border-box;
+
 }
 
 /* giving style to our header text */
