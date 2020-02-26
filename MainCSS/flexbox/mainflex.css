@@ -20,8 +20,9 @@ body {
   border: 5px solid black;
   display: flex;
   flex-direction: row;
-  /* flex-direction:nowrap */
   flex-wrap: wrap;
+  /* flex-flow: row-wrap; */
+  align-item: center;
 }
 
 .item-1 {
