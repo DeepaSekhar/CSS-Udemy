@@ -4,7 +4,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
- /* .background{ 
+/* .background{ 
   background:url("plans-background.jpg");
   widows: 100%;
   height:100%;
@@ -15,8 +15,8 @@ body {
 #product-overview {
   /* adding background image  */
   /* background: url("freedom.jpg"); */
-  background:linear-gradient( to top,rgba(80,68,18,0.6)10%,transparent),
-   url("freedom.jpg");
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("freedom.jpg");
   /* width and height*/
   background-repeat: no-repeat;
 
@@ -29,7 +29,7 @@ body {
   width: 100%;
   height: 33vh;
   /* padding: 10px; */
-  margin-top: 1px ;
+  margin-top: 1px;
   border: 1px solid black;
 }
 
@@ -37,17 +37,16 @@ body {
   color: rgb(238, 227, 227);
   font-family: "Anton", sans-serif;
   position: relative;
-  top :60%;
+  top: 60%;
   bottom: 5%;
-  font-size:1rem;
+  font-size: 1rem;
 }
-@media(min-width:40rem)and (min-height:60rem){
-  #product-overview{
-    height:40vh;
+@media (min-width: 40rem) and (min-height: 60rem) {
+  #product-overview {
+    height: 40vh;
     background-position: 50% 25%;
   }
 }
-  
 
 .section-title {
   color: #063b14;
@@ -62,7 +61,6 @@ body {
   padding: 16px;
   margin: 8px 0 0 0;
   width: 100%;
-  
 }
 /* highlight the middle article 
 box-shadow giving the shadow to the box
@@ -87,19 +85,18 @@ white background,green text,padding and drop shadow */
 .plan-features {
   list-style: none;
 }
-@media(min-width:40rem){
+@media (min-width: 40rem) {
   .plan-list {
-  width: 100%;
-text-align: center;
-}
-.plan{ 
-  display:inline-block;
-  width:30%;
-  vertical-align: middle;
-  min-width:13rem;
-max-width:25rem 
-
-}
+    width: 100%;
+    text-align: center;
+  }
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
 }
 /* To style each <li>element=>
 a.use a combination class with ul(planfreatures.li)
@@ -171,7 +168,6 @@ cursor is a selector and show its effect on when we touch to the element */
   border: 2px solid #424242;
   border-radius: 50%;
   margin: auto;
-  
 }
 .key-feature-description {
   text-align: center;
@@ -179,12 +175,11 @@ cursor is a selector and show its effect on when we touch to the element */
   font-size: 20px;
   vertical-align: top;
 }
-@media(min-width:40rem){
-  .key-feature{
+@media (min-width: 40rem) {
+  .key-feature {
     vertical-align: top;
     display: inline-block;
-    width: 30%; 
-
+    width: 30%;
   }
 }
 /* h1 {
@@ -195,12 +190,11 @@ cursor is a selector and show its effect on when we touch to the element */
   background: rgb(12, 231, 12);
   width: 100%;
   padding: 8px 16px;
-  position:fixed;
-  top:0;
-  left:0;
-  margin:0;
-  box-sizing:border-box;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* giving style to our header text */
@@ -268,8 +262,8 @@ cursor is a selector and show its effect on when we touch to the element */
   border-left: none;
 }
 .package:hover,
-.package:active{
-  box-shadow:2px 2px 4px rgba(0,0,0,0.5);
+.package:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-color: #ff5454;
 }
 .package a {
@@ -288,25 +282,25 @@ cursor is a selector and show its effect on when we touch to the element */
   font-size: 20px;
   color: darkgreen;
 }
-.clear-fix{
-  clear:both;
+.clear-fix {
+  clear: both;
 }
 #plus {
   background: rgba(213, 255, 220, 0.95);
 }
 #free {
   background: rgba(234, 252, 237, 0.95);
-  float:right;
+  float: right;
 }
 #premium {
-  background: rgba(14, 79, 31, 0.95) ;
-  }
-#premium .package-title{
-  color:white;
+  background: rgba(14, 79, 31, 0.95);
 }
+#premium .package-title {
+  color: white;
 }
-#premium .package-subtitle{
-  color: rgb(160, 149, 149)
+
+#premium .package-subtitle {
+  color: rgb(160, 149, 149);
 }
 
 /* ******************************************************************************* */
